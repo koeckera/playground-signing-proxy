@@ -9,5 +9,6 @@
   "author": "Günther Köckerandl <guenther.koeckerandl@sz.de>",
   "license": "ISC",
   "dependencies": {
+    "http-proxy": "^1.18.0"
   }
 }
