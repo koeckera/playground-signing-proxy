@@ -1,0 +1,13 @@
+{
+  "name": "playground-signing-proxy",
+  "version": "1.0.0",
+  "description": "A rudimentary HTTP proxy that signs all requests using draft-cavage-http-signatures-00",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Günther Köckerandl <guenther.koeckerandl@sz.de>",
+  "license": "ISC",
+  "dependencies": {
+  }
+}
