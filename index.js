@@ -32,7 +32,7 @@ const server = require('http').createServer((req, res) => {
     req.rawBody = Buffer.alloc(0);
     const reqUrl = new URL(req.url);
     req.rawTarget = `${reqUrl.protocol || 'http:'}//${reqUrl.host}`;
-    req.rawPath = reqUrl.pathname;
+    req.rawPath = reqUrl.pathname + (reqUrl.search || '');
 
     req.on('data', (data) => {
         req.rawBody = Buffer.concat([req.rawBody, data]);
