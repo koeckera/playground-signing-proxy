@@ -11,6 +11,6 @@
   "repository": "github:koeckera/playground-signing-proxy",
   "dependencies": {
     "crypto-js": "^3.1.9-1",
-    "http-proxy": "^1.18.0"
+    "http-proxy": "^1.18.1"
   }
 }
