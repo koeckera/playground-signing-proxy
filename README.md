@@ -1,3 +1,5 @@
+(!) Warning: This is not a actively maintained reposiory -- although some have obviously found their way here. Please use this as a rough guideline how you could implement this properly on your own. **DO NOT** use this in production. Ever.
+
 # Signing Proxy
 
 Very rudimentary implementation of a transparent HTTP(s) proxy that signs all requests as per [draft-cavage-http-signatures-00](https://tools.ietf.org/html/draft-cavage-http-signatures-00).
