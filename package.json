@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": "github:koeckera/playground-signing-proxy",
   "dependencies": {
-    "crypto-js": "^3.2.1",
+    "crypto-js": "^4.2.0",
     "http-proxy": "^1.18.1"
   }
 }
